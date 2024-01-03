@@ -1,4 +1,5 @@
 #!/bin/bash
+sfile="http://sg.warnetgrg.my.id:81/tohlol"
 # Authentication
 IPADDR=$( curl -s https://ipinfo.io/ip )
 IP_REGIS=$( curl -s $sfile/data.txt | grep -w $IPADDR | awk '{print $1}' )
