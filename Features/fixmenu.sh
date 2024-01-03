@@ -1,5 +1,5 @@
 #!/bin/bash
-sfile="wget https://github.com/simakan12/Azerd/raw/ABSTRAK/Features"
+
 cd /usr/bin
 wget -O addtrojan "https://github.com/simakan12/Azerd/raw/ABSTRAK/Features/addtr2.sh"
 wget -O addvmess "https://github.com/simakan12/Azerd/raw/ABSTRAK/Features/addvmess2.sh"
